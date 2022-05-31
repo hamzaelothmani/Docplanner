@@ -1,16 +1,24 @@
-html {
-    margin: 0 444px 0 444px;
-}
+
+
+
+
 .navbar {
   position: sticky;
+  top: 0%;
+  background-color: white;
+  padding-top: 15px;
+  z-index: 1;
+  
+  
+ 
 }
 .flex-container {
     display: flex;
     justify-content: end;
-    
+    color: #747474;
+    margin: 0 444px 0 444px;
     
  
-
 }
 .flex-container > div {
     font-family: roboto,Arial,sans-serif;
@@ -27,13 +35,15 @@ div > .about {
 }
 .hlogo {
   float: left;
+  margin: 0 444px 0 444px;
+  
 }
   .career1:hover {
     color: #00b39b;
   }
 .dropbtn {
     background-color: white;
-    color: none;
+    color: #747474;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -50,9 +60,10 @@ div > .about {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
   
   }
   
@@ -63,6 +74,7 @@ div > .about {
     display: block;
     text-align: left;
     line-height: 40px;
+    color: #747474;
   }
   
   .dropdown-content a:hover {color: #00b39b;}
@@ -83,24 +95,30 @@ div > .about {
     border-style: hidden;
     text-align: center;
     size: 13px;
-    padding:0;
+    padding:0 0 0 100px;
     margin: 40px 0 0 0;
+    
+    
+  }
+  .pic {
+    margin-left: 200px;
   }
   .myDIV > .headline {
    
     font-family: "work sans" ,Arial, sans-serif;
     font-size: 34px;
     color: #00b39b;
-    
-  
     height: 44px;
-    margin: 34px 0 34px 0;
+    width: 800px;
+    margin: 34px 444px 34px 444px;
     line-height: 44px;
   }
   .parag {
     display: flex;
     justify-content: space-around;
-  
+    width: 1000px; 
+    margin-left: 350px;
+    
 
   }
   .parag > p {
@@ -112,14 +130,16 @@ div > .about {
     color: #747474;
     font-size: 16px;
     text-align: left;
-    height: 112px;
-    width: 477px;
-    
   }
   .cards {
     display: flex;
     justify-content: space-around;
     margin-top: 345px;
+    margin-left: 444px;
+    margin-right: 444px;
+   
+   
+    color: #FFFFFF;
     
   }
   .patients {
@@ -127,8 +147,10 @@ div > .about {
     width: 311px;
     height: 345px;
     padding: 32px 32px 0 32px;
-    border-radius: 15px ;
+    border-radius: 10px ;
     left: 0px;
+    font-family: "work sans", arial, sans-serif;
+    
     
   }
   .doctors {
@@ -136,19 +158,422 @@ div > .about {
     width: 311px;
     height: 345px;
     padding: 32px 32px 0 32px;
-    border-radius: 15px ;
+    border-radius: 10px ;
     margin: 0 10px 0 10px;
+    font-family: "work sans", arial, sans-serif;
   }
   .clinics {
     background-color: #1b2734;
     width: 311px;
     height: 345px;
     padding: 32px 32px 0 32px;
-    border-radius: 25px ;
+    border-radius: 10px ;
     right: 0;
+    font-family: "work sans", arial, sans-serif;
   }
   #country {
     text-decoration: underline;
     border: 0;
     background: transparent;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+   
+    
+    
   }
+  .patients  h2 {
+    font-weight: 300;
+    font-size: 24px; 
+    letter-spacing: -0.3px;
+  }
+   .patients h1 {
+     font-size: 26px;
+     line-height: 33.8px;
+     letter-spacing: -0.3px;
+    font-weight: 400;
+   }
+ select option {
+   color: black;
+   font-size: 16px;
+   line-height: 25px;
+   font-family: Roboto, arial, sans-serif;
+
+ }
+ .doctors h2 {
+  font-weight: 300;
+  font-size: 24px; 
+  letter-spacing: -0.3px;
+}
+ .doctors h1 {
+   font-size: 26px;
+   line-height: 33.8px;
+   letter-spacing: -0.3px;
+  font-weight: 400;
+ }
+ .clinics h2 {
+  font-weight: 300;
+  font-size: 24px; 
+  letter-spacing: -0.3px;
+}
+ .clinics h1 {
+   font-size: 26px;
+   letter-spacing: -0.3px;
+  font-weight: 400;
+ }
+ .logoplace {
+  width: 100%;
+  height: 200px;
+  font-family: "Roboto", arial, sans-serif;
+  
+ }
+ .logoplace h1 {
+   position: relative;
+   padding: 40px 0;
+   width: 250px;
+   font-family: "Work Sans",Arial,sans-serif;
+   font-weight: 300;
+    font-size: 26px;
+    letter-spacing: -0.3px;
+    line-height: 33px;
+    color: #00b39b;
+    margin-left: 444px;
+ }
+
+ul {
+  display: flex;  
+  flex-wrap: wrap;
+  list-style: none;
+  width: 600px;
+  height: 120px;
+  margin-left: 800px;
+  margin-top: -150px;
+  position: absolute;
+}
+
+
+ 
+ .except {
+
+   width: 100%;
+   height: 600px;
+   overflow: hidden;
+   background-color: #e5faf8;
+ }
+
+ #boxes {
+   height: 600px;
+   width: 497.5px;
+   margin-right: 444px;
+   float: right;
+   margin-top: 15px;
+   
+ }
+ 
+ 
+ .fcard {
+   background-color: white;
+   height: 250px;
+   width: 228px;
+   border-radius: 5px;
+ 
+   float: right;
+   margin: 10px 10px 0 0;
+   
+ }
+ .ccard {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+
+  margin: 30px 0 0 10px;
+  
+ }
+ .tcard {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+ 
+  float: right;
+  margin: 0 10px 0 0;
+ 
+ }
+ .last {
+  background-color: white;
+  height: 250px;
+  width: 228px;
+  border-radius: 5px;
+ 
+  margin: 20px 0 0 10px;
+ }
+ .ccard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .ccard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .ccard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .fcard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .fcard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .fcard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .tcard div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .tcard h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .tcard p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .last div {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+ }
+ .last h3 {
+   line-height: 31.2px;
+   letter-spacing: -0.3px;
+   font-family: "work sans", arial, sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: #00b39b;
+ }
+ .last p {
+   font-size: 13px;
+   line-height: 16.9px;
+   color: #747474;
+   font-family: Roboto, arial, sans-serif;
+   font-weight: 400;
+ }
+ .bighead {
+  position: relative;
+   width: 400px;
+   height: 100px;
+   padding-top: 32px;
+   margin-left: 444px;
+
+ }
+ .bighead h1 {
+  font-family: "work sans", arial, sans-serif;
+  font-weight: 300;
+  line-height: 44px;
+  font-size: 34px;
+  color: #00b39b;
+  letter-spacing: -0.3px;
+  
+ }
+ .desc {
+  position: absolute;
+   width: 390px;
+   height: 48px;
+   margin-top: 30px;
+   margin-left: 444px;
+
+ }
+ .desc {
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #747474;
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 400;
+ }
+ .biglogo {
+   position: absolute;
+   margin-top: 150px;
+   overflow: hidden;
+   height: 320px;
+   margin-left: 300px;
+
+ }
+ .improve {
+  position: relative;
+   width: 100%;
+   height: 300px;
+   text-align: center;
+ }
+ .improve h1 {
+   position: relative;
+   width: 460px;
+   height: 78px;
+  font-family: "work sans", arial, sans-serif;
+  font-weight: 300;
+  line-height: 44px;
+  font-size: 34px;
+  color: #00b39b;
+  letter-spacing: -0.3px;
+  margin: auto;
+  top: 60px;
+ }
+
+.improve p {
+
+position: relative;
+width: 460px;
+height: 78px;
+margin: auto;
+font-size: 14px;
+  line-height: 18.2px;
+  color: #747474;
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 400;
+  top: 90px;
+}
+.OQP {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 444px;
+  margin-right: 444px;
+
+  padding: 10px;
+}
+.city {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 311px;
+  border-radius: 6px;
+  margin: 20px 15px 0 0;
+}
+
+.city:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Barcelona {
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.botton1 {
+  border: 1px solid;
+  padding: 13px 15px 10px 10px;
+  border-radius: 4px;
+  background-color: #3d83df;
+  color: white;
+  font-family: roboto, arial, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  line-height: 10px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.botton1:hover {
+  background-color: #2777de;
+}
+.city img {
+  border-radius: 6px;
+}
+
+.botton2 {
+  font-family: roboto, arial, sans-serif;
+  font-size: 18px;
+  color: #747474;
+  font-weight: 400;
+  text-decoration: underline;
+  
+}
+.botton2:hover {
+  text-decoration: none;
+}
+.footer {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+}
+.footer h1 {
+  font-family: "work sans", arial, sans-serif;
+  font-weight: 300;
+  line-height: 39px;
+  letter-spacing: -0.3px;
+  color: #333333;
+  text-align: center;
+}
+.footer p {
+width: 210px;
+position: relative;
+border-radius: 4px;
+background-color: #3d83df;
+color: white;
+font-family: roboto, arial, sans-serif;
+font-size: 12px;
+letter-spacing: 0.48px;
+line-height: 12px;
+font-weight: 700;
+padding: 14px 10px 14px 10px;
+
+text-transform: uppercase;
+text-align: center;
+margin: auto;
+}
+.footer p:hover {
+  background-color: #2777de;
+  
+}
+.bfooter {
+  position: relative;
+border-top: 1px solid #eef2f2;
+padding: 30px 0 0 0 ;
+
+}
+.bfooter  {
+  display: block;
+  font-family: roboto, arial, sans-serif;
+  font-size: 12px;
+  line-height: 15.6px;
+  color: #ababaa;
+  text-align: center;
+}
+.ex4 {
+  position: relative;
+  bottom: 10px;
+}
+span:hover {
+  text-decoration: underline;
+}
+
+
+
+
